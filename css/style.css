@@ -6,6 +6,201 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family:;
+/* header */
+header {
+  /* height: 300px; */
+  font-family: "Helvetica";
+  /* background-color: red; */
+}
+
+/*prima riga che tiene in clearfix (contenitore-a e menu) + (icone) */
+.wrapper1 {
+  /* height:100px; */
+  background-color: #33475b;
+}
+
+.wrapper1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* tiene logocontainer e il menu in clearfix */
+.contenitore-a {
+  float: left;
+  width: 50%;
+  /* background-color: lightgreen; */
+  /* height:100px; */
+  padding-left: 5%;
+}
+
+.contenitore-a:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logocontainer {
+  width: 10%;
+  /* background-color: purple; */
+  float: left;
+  /* height:100px; */
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  height:70px
+}
+
+.menu {
+  width: 90%;
+  float: left;
+  /* background-color: red; */
+  height:70px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  padding-top: 25px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenitore-b {
+  float: left;
+  width: 50%;
+  padding-right: 5%;
+  /* background-color: pink; */
+  /* height: 100px; */
+}
+
+.contenitore-b:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cerca-imp {
+  float: left;
+  width: 50%;
+  background-color: violet;
+  height: 70px;
+}
+
+.prof-gigi {
+  float: left;
+  width: 50%;
+  background-color: green;
+  /* height: 100px; */
+}
+
+/* seconda riga */
+.wrapper2 {
+  /* height:100px; */
+  /* background-color: black; */
+}
+
+.wrapper2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contenitore-c {
+  float: left;
+  width: 50%;
+  /* height: 100%; */
+  padding-left: 7%;
+}
+
+.contenitore-c ul {
+  list-style-type: none;
+}
+
+.contenitore-c li {
+  display: inline-block;
+}
+
+.contenitore-d {
+  float: right;
+  width: 50%;
+  padding-left: 20%
+  /* height: 100%; */
+}
+
+.contenitore-d ul {
+  list-style-type: none;
+}
+
+.contenitore-d li {
+  display: inline-block;
+}
+
+/* terza riga */
+.wrapper3 {
+  /* height:100px; */
+  background-color: lightgrey;
+}
+
+.wrapper3:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contenitore-e {
+  float: left;
+  width: 50%;
+  padding-left:7%;
+  padding-top: 2%;
+}
+
+.contenitore-f {
+  float: right;
+  width: 50%;
+  padding-left: 15%;
+}
+
+.contenitore-f ul {
+  list-style-type: none;
+}
+
+.contenitore-f li {
+  display: inline-block;
+}
+
+.contenitore-f a {
+  text-decoration: none;
+}
+
+/* prima banda orizzontale */
+.firstrow {
+  background-image: url('../img/Sfondo.PNG');
+  background-size: contain;
+  height: 400px;
+}
+
+.mainblock {
+  width: 30%;
+  padding-left: 7%;
+  padding-top: 4%;
+}
+
+.mainblock h1 {
+  padding-bottom: 3%;
+}
+
+.mainblock a {
+  background-color: white;
+  padding: 8%;
+  text-decoration: none;
+  color: black;
+  border: solid grey 1px;
 }
