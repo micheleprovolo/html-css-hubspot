@@ -26,8 +26,8 @@ a {
 
 /* header */
 header {
-  /* height: 300px; */
-  /* background-color: red; */
+  position: fixed;
+  width: 100%;
 }
 
 /*prima riga che tiene in clearfix (contenitore-a e menu) + (icone) */
@@ -211,13 +211,12 @@ header {
 .firstrow {
   background-image: url('../img/Sfondo.PNG');
   background-size: contain;
-  /* height: 400px; */
+  padding-top: 10%;
 }
 
 .mainblock {
   width: 30%;
   padding-left: 7%;
-  padding-top: 2%;
 }
 
 .mainblock h1 {
@@ -227,13 +226,13 @@ header {
 
 .mainblock a {
   background-color: white;
-  padding: 8%;
+  padding: 7%;
   text-decoration: none;
   color: black;
   border: solid grey 1px;
   border-radius: 3%;
   display: inline-block;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 /* corpo principale della pagina */
