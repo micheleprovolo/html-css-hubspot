@@ -4,12 +4,27 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: avenirnext;
 }
 
+@font-face {
+  font-family: avenirnext;
+  src: url('../Avenir-Next-Font/AvenirNextLTPro-Regular.otf');
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
 /* header */
 header {
   /* height: 300px; */
-  font-family: "Helvetica";
   /* background-color: red; */
 }
 
@@ -90,15 +105,31 @@ header {
 .cerca-imp {
   float: left;
   width: 50%;
-  background-color: violet;
-  height: 70px;
+  padding-top: 3%;
+  /* background-color: violet; */
+  /* height: 70px; */
 }
 
+.cerca-imp ul {
+  padding-left: 80%;
+
+}
+
+.cerca-imp li {
+  padding-right: 20%;
+}
+
+
 .prof-gigi {
-  float: left;
+  float: right;
   width: 50%;
-  background-color: green;
+  padding-left: 15%;
+  padding-top: 3%;
   /* height: 100px; */
+}
+
+.prof-gigi li {
+  padding-right: 15%;
 }
 
 /* seconda riga */
@@ -141,6 +172,15 @@ header {
 
 .contenitore-d li {
   display: inline-block;
+}
+
+.contenitore-d a {
+  background-color: #ff7a59;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: solid black 1px;
+  display: inline-block;
+  color: black;
 }
 
 /* terza riga */
@@ -268,8 +308,9 @@ header {
   float: left;
   /* background-color: orange; */
   /* margin-left: 5%; */
-  padding: 5%;
-  width: 50%;
+  padding-top: 10%;
+  width: 30%;
+  margin-left: 20%;
 }
 
 .colsx img {
@@ -310,4 +351,22 @@ header {
 .coldx h5 {
   padding-top: 5%;
   padding-left: 10%;
+}
+
+.lista {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.lista ul {
+  list-style-type: none;
+}
+
+.lista li {
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.lista i {
+  color: #ff7a59;
 }
