@@ -19,6 +19,7 @@ ul {
 li {
   display: inline-block;
 }
+
 a {
   text-decoration: none;
 }
@@ -31,7 +32,6 @@ header {
 
 /*prima riga che tiene in clearfix (contenitore-a e menu) + (icone) */
 .wrapper1 {
-  /* height:100px; */
   background-color: #33475b;
 }
 
@@ -40,12 +40,11 @@ header {
   clear: both;
   display: table;
 }
+
 /* tiene logocontainer e il menu in clearfix */
 .contenitore-a {
   float: left;
   width: 50%;
-  /* background-color: lightgreen; */
-  /* height:100px; */
   padding-left: 5%;
 }
 
@@ -56,16 +55,15 @@ header {
 }
 
 .logocontainer {
-  width: 10%;
   float: left;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 2%;
+  width: 10%;
+  padding-top: 1%;
 }
 
 .menu {
   width: 90%;
   float: left;
+  padding-top: 2%;
 }
 
 .menu ul {
@@ -76,7 +74,6 @@ header {
   display: inline-block;
   text-align: center;
   width: 20%;
-  padding-top: 25px;
 }
 
 .menu a {
@@ -88,8 +85,7 @@ header {
   float: left;
   width: 50%;
   padding-right: 5%;
-  /* background-color: pink; */
-  /* height: 100px; */
+  padding-top: 1%;
 }
 
 .contenitore-b:after {
@@ -101,27 +97,20 @@ header {
 .cerca-imp {
   float: left;
   width: 50%;
-  padding-top: 3%;
-  /* background-color: violet; */
-  /* height: 70px; */
 }
 
 .cerca-imp ul {
   padding-left: 80%;
-
 }
 
 .cerca-imp li {
   padding-right: 20%;
 }
 
-
 .prof-gigi {
   float: right;
   width: 50%;
   padding-left: 15%;
-  padding-top: 3%;
-  /* height: 100px; */
 }
 
 .prof-gigi li {
@@ -130,8 +119,9 @@ header {
 
 /* seconda riga */
 .wrapper2 {
-  /* height:100px; */
-  /* background-color: black; */
+  background-color: lightgrey;
+  padding-top:1%;
+  padding-bottom: 1%;
 }
 
 .wrapper2:after {
@@ -144,6 +134,7 @@ header {
   float: left;
   width: 50%;
   padding-left: 7%;
+  /* padding-top: 2%; */
 }
 
 .contenitore-c ul {
@@ -153,13 +144,12 @@ header {
 .contenitore-c li {
   display: inline-block;
   padding-right: 3%;
-  padding-top: 2%;
 }
 
 .contenitore-d {
   float: right;
   width: 50%;
-  /* padding-left: 20% */
+  /* padding-top: 5%; */
 }
 
 .contenitore-d ul {
@@ -169,22 +159,19 @@ header {
 
 .contenitore-d li {
   display: inline-block;
-  padding-right: 10%;
-  /* padding-top: 2%; */
+  padding-right: 5%;
 }
 
 .contenitore-d a {
   background-color: #ff7a59;
-  padding: 5%;
   border: solid black 1px;
   display: inline-block;
   color: black;
-  margin: 5%;
 }
 
 /* terza riga */
 .wrapper3 {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 .wrapper3:after {
@@ -196,14 +183,15 @@ header {
 .contenitore-e {
   float: left;
   width: 50%;
-  padding-left:7%;
-  padding-top: 2%;
+  padding-left: 7%;
+  padding-top: 1%;
 }
 
 .contenitore-f {
   float: right;
   width: 50%;
-  padding-left: 15%;
+  padding-left: 8%;
+  padding-top: 1%;
 }
 
 .contenitore-f ul {
@@ -212,6 +200,7 @@ header {
 
 .contenitore-f li {
   display: inline-block;
+  padding-right: 2%;
 }
 
 .contenitore-f a {
@@ -254,8 +243,8 @@ header {
 }
 
 .blocco-uno {
-  margin-left:10%;
-  margin-right:10%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: lightgrey;
 }
 
@@ -324,7 +313,6 @@ header {
   text-decoration: none;
   margin-right: 20%;
   margin-left: 10%;
-
 }
 
 .coldx {
@@ -366,8 +354,8 @@ header {
 }
 
 .blocco-due {
-  margin-left:10%;
-  margin-right:10%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 3%;
 }
 
@@ -381,7 +369,7 @@ header {
 }
 
 .raccoglitore {
-  width:100%;
+  width: 100%;
 }
 
 .raccoglitore:after {
@@ -397,7 +385,7 @@ header {
 }
 
 .immaginealta {
-  padding:15%;
+  padding: 15%;
 }
 
 .raccoglitore h4 {
@@ -420,6 +408,7 @@ header {
 .raccoglitore ul {
   padding-bottom: 5%;
 }
+
 .raccoglitore li {
   padding-left: 5%;
 }
@@ -481,4 +470,70 @@ header {
   padding-right: 10%;
 }
 
-.
+.primafila:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.miniblocco {
+  width: 25%;
+  float: left;
+  border-right: white 1px solid;
+  border-bottom: white 1px solid;
+}
+
+.miniblocco:last-child {
+  border-right: none;
+}
+
+.blocco-wrap {
+  padding: 8%;
+  color: white;
+  text-align: center;
+}
+
+.secondafila:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.secondafila .miniblocco {
+  border-bottom: none;
+}
+
+footer {
+  margin-top: 2%;
+  background-color: #7c98b6;
+  /* width: 100%; */
+}
+
+.fila-oriz {
+  /* width: 90%; */
+  padding-top: 3%;
+  padding-left: 15%;
+  /* padding-right: 3%; */
+}
+
+.fila-oriz:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.c-uno, .c-due, .c-tre, .c-quattro {
+  float: left;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+footer li {
+  display: block;
+  color: white;
+  padding-bottom: 5%;
+}
+
+footer a {
+  color: white;
+}
