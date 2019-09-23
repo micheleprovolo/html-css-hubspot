@@ -56,20 +56,15 @@ header {
 
 .logocontainer {
   width: 10%;
-  /* background-color: purple; */
   float: left;
-  /* height:100px; */
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 2%;
-  height:70px
 }
 
 .menu {
   width: 90%;
   float: left;
-  /* background-color: red; */
-  height:70px;
 }
 
 .menu ul {
@@ -147,7 +142,6 @@ header {
 .contenitore-c {
   float: left;
   width: 50%;
-  /* height: 100%; */
   padding-left: 7%;
 }
 
@@ -157,35 +151,38 @@ header {
 
 .contenitore-c li {
   display: inline-block;
+  padding-right: 3%;
+  padding-top: 2%;
 }
 
 .contenitore-d {
   float: right;
   width: 50%;
-  padding-left: 20%
-  /* height: 100%; */
+  /* padding-left: 20% */
 }
 
 .contenitore-d ul {
   list-style-type: none;
+  padding-left: 50%;
 }
 
 .contenitore-d li {
   display: inline-block;
+  padding-right: 10%;
+  /* padding-top: 2%; */
 }
 
 .contenitore-d a {
   background-color: #ff7a59;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 5%;
   border: solid black 1px;
   display: inline-block;
   color: black;
+  margin: 5%;
 }
 
 /* terza riga */
 .wrapper3 {
-  /* height:100px; */
   background-color: lightgrey;
 }
 
@@ -224,17 +221,18 @@ header {
 .firstrow {
   background-image: url('../img/Sfondo.PNG');
   background-size: contain;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .mainblock {
   width: 30%;
   padding-left: 7%;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 .mainblock h1 {
-  padding-bottom: 3%;
+  padding-bottom: 10%;
+  font-size: 50px;
 }
 
 .mainblock a {
@@ -265,7 +263,6 @@ header {
   /* width: 40%; */
   margin-left: 30%;
   margin-right: 30%;
-  /* background-color: blue; */
 }
 
 .powerful img {
@@ -306,7 +303,6 @@ header {
 
 .colsx {
   float: left;
-  /* background-color: orange; */
   /* margin-left: 5%; */
   padding-top: 10%;
   width: 30%;
@@ -369,4 +365,43 @@ header {
 
 .lista i {
   color: #ff7a59;
+}
+
+.blocco-due {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.raccoglitore {
+  width:100%;
+  background-color: red;
+}
+
+.raccoglitore:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-uno {
+  width: 30%;
+  background-color: blue;
+  float: left;
+  height: 500px;
+}
+
+.col-due {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: blue;
+  float: left;
+  height: 500px;
+}
+
+.col-tre {
+  width: 30%;
+  background-color: blue;
+  float: left;
+  height: 500px;
 }
