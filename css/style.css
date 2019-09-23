@@ -166,7 +166,7 @@ header {
   background-color: #ff7a59;
   border: solid black 1px;
   display: inline-block;
-  color: black;
+  color: white;
 }
 
 /* terza riga */
@@ -235,10 +235,13 @@ header {
   margin-top: 8%;
 }
 
+.mainblock a:hover {
+  background-color: lightblue;
+}
+
 /* corpo principale della pagina */
 .corpo-pagina {
   background-color: lightgrey;
-  /* height: 1000px; */
 }
 
 .blocco-uno {
@@ -289,17 +292,14 @@ header {
 
 .colsx {
   float: left;
-  /* margin-left: 5%; */
-  padding-top: 10%;
-  width: 30%;
-  margin-left: 20%;
+  width: 50%;
 }
 
-.colsx img {
-  width: 50%;
-  margin-bottom: 10%;
-  /* margin-top: 10%; */
-  /* margin-left:5%; */
+.disegno {
+  width: 350px;
+  height:auto;
+  padding-left: 23%;
+  padding-top: 10%;
 }
 
 .colsx a {
@@ -310,15 +310,17 @@ header {
   border-radius: 5%;
   display: inline-block;
   text-decoration: none;
-  margin-right: 20%;
-  margin-left: 10%;
+  margin-left: 35%;
+}
+
+.colsx a:hover{
+  background-color: pink;
 }
 
 .coldx {
   float: right;
   width: 50%;
   padding: 5%;
-  margin-top: 5%;
 }
 
 .coldx h4 {
