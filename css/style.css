@@ -81,6 +81,7 @@ header {
   text-decoration: none;
 }
 
+/* contenitore di due div con le icone */
 .contenitore-b {
   float: left;
   width: 50%;
@@ -130,11 +131,11 @@ header {
   display: table;
 }
 
+/* div con contenitore-c (float) */
 .contenitore-c {
   float: left;
   width: 50%;
   padding-left: 7%;
-  /* padding-top: 2%; */
 }
 
 .contenitore-c ul {
@@ -146,10 +147,10 @@ header {
   padding-right: 3%;
 }
 
+/* div con contenitore-d (float)+(clearfix) */
 .contenitore-d {
   float: right;
   width: 50%;
-  /* padding-top: 5%; */
 }
 
 .contenitore-d ul {
@@ -180,6 +181,7 @@ header {
   display: table;
 }
 
+/* div con contenitore-e (float) */
 .contenitore-e {
   float: left;
   width: 50%;
@@ -187,6 +189,7 @@ header {
   padding-top: 1%;
 }
 
+/* div con contenitore-f (float) */
 .contenitore-f {
   float: right;
   width: 50%;
@@ -274,6 +277,7 @@ header {
   line-height: 150%;
 }
 
+/* primo contenitore orizzontale */
 .crm {
   background-color: white;
 }
@@ -354,6 +358,7 @@ header {
   color: #ff7a59;
 }
 
+/* secondo contenitore orizzontale (con 3 colonne all'interno) */
 .blocco-due {
   margin-left: 10%;
   margin-right: 10%;
@@ -378,7 +383,7 @@ header {
   clear: both;
   display: table;
 }
-
+/* colonna sinistra */
 .col-uno {
   width: 30%;
   float: left;
@@ -426,6 +431,7 @@ header {
   margin-bottom: 5%;
 }
 
+/* colonna centrale */
 .col-due {
   width: 30%;
   margin-left: 5%;
@@ -438,6 +444,7 @@ header {
   padding-top: 4%;
 }
 
+/* colonna destra */
 .col-tre {
   width: 30%;
   background-color: white;
@@ -448,6 +455,7 @@ header {
   padding-bottom: 7%;
 }
 
+/* sezione azzurra con tabella interna */
 .azzurra {
   width: 100%;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
@@ -466,11 +474,13 @@ header {
   padding-bottom: 3%;
 }
 
+/* tabella */
 .table {
   padding-left: 10%;
   padding-right: 10%;
 }
 
+/* prima riga */
 .primafila:after {
   content: "";
   clear: both;
@@ -494,6 +504,7 @@ header {
   text-align: center;
 }
 
+/* seconda riga */
 .secondafila:after {
   content: "";
   clear: both;
@@ -504,6 +515,7 @@ header {
   border-bottom: none;
 }
 
+/* footer */
 footer {
   margin-top: 2%;
   background-color: #7c98b6;
